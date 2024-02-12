@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="styles.css" rel="stylesheet">
+    <title>Desafio Formulário</title>
+</head>
+<body>
+
+<h1 id="title">Desafio de Formulário</h1>
+<p id="description">Esse é um exercício para o site FreeCodeCamp</p>
+
+<form id="survey-form">
+    <div class="group">
+        <label for="name" id="name-label">Nome</label>
+        <input id="name" placeholder="Digite seu nome" required type="text">
+
+        <label for="email" id="email-label">Email</label>
+        <input id="email" placeholder="Digite seu e-mail" required type="email">
+
+        <label for="number" id="number-label">Idade (Opcional)</label>
+        <input id="number" max="150" min="0" placeholder="Idade" type="number">
+    </div>
+
+    <div class="group">
+        <label for="dropdown">Qual a sua ocupação atual?</label>
+        <select id="dropdown">
+            <option value="Estudante">Estudante</option>
+            <option value="Trabalho meio período">Trabalho meio período</option>
+            <option value="Trabalho Integral">Trabalho Integral</option>
+        </select>
+    </div>
+
+    <div class="group">
+        <p>Você recomendaria o FreeCodeCamp para um amigo?</p>
+        <label><input class="radio" name="recomendacao" type="radio" value="Sim">Sim</label>
+        <label><input class="radio" name="recomendacao" type="radio" value="Não">Não</label>
+    </div>
+
+    <div class="group">
+        <p>Quais habilidades você gostaria de aprender?</p>
+        <label><input class="checkbox" name="habilidades" type="checkbox" value="Front-end">Front-end</label>
+        <label><input class="checkbox" name="habilidades" type="checkbox" value="Back-end">Back-end</label>
+        <label><input class="checkbox" name="habilidades" type="checkbox" value="Full Stack">Full Stack</label>
+        <label><input class="checkbox" name="habilidades" type="checkbox" value="Data Science">Data Science</label>
+    </div>
+
+    <div class="group">
+        <p>Algum comentário ou sugestão?</p>
+        <label><textarea cols="50" id="textarea" placeholder="Digite aqui..." rows="5"></textarea></label>
+    </div>
+
+    <div class="group">
+        <button id="submit" type="submit">Enviar</button>
+    </div>
+</form>
+</body>
+</html>

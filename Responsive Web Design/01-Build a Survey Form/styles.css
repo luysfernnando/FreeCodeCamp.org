@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+    color-scheme: dark !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkslategray;
+    margin: 5vw;
+}
+
+h1, #description {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+#name, #email, #number {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+
+}
+
+.radio {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    resize: none;
+}
+
+.checkbox {
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    resize: none;
+}
+
+#textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 10px;
+}
